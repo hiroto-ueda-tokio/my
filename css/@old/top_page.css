@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+*{margin:0px; padding:0px;}
+
+html    {width: 100%;  height: 100%; margin:0px;}
+
+body    {width: 750px; height: 100%; margin: auto; background-color: #9ab; /*#90A2AE*/}
+
+#header  {width: 100%; height: 180px; background-color: #5e8eab}
+#navi    {width:  25%; height:   78%; background-color: #555; float: left; overflow: auto;} /*#666*/
+#content {width:  75%; height:   78%; background-image: url(../img/bkcross.gif); float: right; overflow: auto;}
+#footer  {width: 100%; height:  20px; background-color: #ccc; clear: both;} /*回り込みの解除*/
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, 
+	"ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+#header  {color: #fff; font-size: 12px; text-align: center;}
+#navi    {color: #eee; font-size: 12px; text-align: left;}
+#content {color: #222; font-size: 12px; text-align: left;}
+#footer  {color: #000; font-size: 12px; text-align: center;}
+
+#navi p {color: #eee;  margin:15px;}
+#navi ul {padding-left: 20px; margin-left:15px;}
+
+#navi a:link    {color: #eee; text-decoration: none; display: block;}
+#navi a:hover   {color: #000; background-color: #bd7; background-repeat: no-repeat;} /*黄緑*/
+#navi a:visited {color: #bbb;}
+
+#navi img {width: 85%; display:block; margin:auto; border:0;}
+
+#content img {border:0; margin:15px;}
+
+#content p {margin: 15px;}
+
+#content iframe {margin: 15px;}
+
+#content table {margin: 0px 10px 0px 10px; font-size: 95%; border:0px #FFFFFF solid; }
+
+#content td {padding: 0px; border:1px #FFFFFF solid;}
+
+#content ul {
+	padding-left: 20px; margin-left:15px; list-style-type: none; list-style-image:url("../img/bullet.gif");
+}
+
+#content ol {padding-left: 20px; margin-left:15px;}
+
+#content a:link    {color:navy; text-decoration: none; left no-repeat;}
+#content a:hover   {color: #000; background-color #bd7;}
+#content a:visited {color:#777;}
+#content a.lk {padding-left:20px; margin-left:10px; background:url("../gif/b4.gif") left no-repeat;}
+
+H1 {font-size: 150%;}
+H2 {line-height: 200%; font-size:110%;	color: black; background-color: #eee; margin:10px; padding-left: 10px;}
+H3 {line-height: 200%; font-size:110%;	color: #000;  background-color: #eee; margin:10px; padding-left: 10px;}
+H4 {line-height: 200%; font-size:100%;	color: #5e8eab; margin:10px;}
+H5 {line-height: 100%; font-size: 80%;	color: navy; margin:10px;}
+
+HR {margin: 10px;}

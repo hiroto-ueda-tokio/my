@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+*{margin:0px; padding:0px;}
+
+html    {width: 100%;  height: 100%; margin:0px;}
+
+body    {width: 800px; height: 100%; margin: auto;}
+
+#all     {width: 800px; height: 100%;}
+
+#header  {width: 800px; height: 3%;}
+#navi    {width: 180px; height: 95%; float: left;  padding: 0 10px; overflow: auto;}
+#content {width: 580px; height: 95%; float: right; padding: 0 10px; overflow: auto;}
+footer   {width: 800px; height: 2%;}
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 13px; background-color: #90A2AE;
+}
+
+#all {background-color: #666;}
+
+#header{font-size:120%;	color: white; background-color: #5e8eab; text-align: center;}
+
+#navi p {color: #CCC;  margin:15px;}
+#navi li {color: #CCC;  margin:15px; list-style-type: none;}
+
+#navi img {width: 90%; margin:5%;}
+
+#navi a {color: #CCC; text-decoration: none; display: block;}
+
+#navi a:hover {
+	color: #666; background-color: #BCDA74; /*黄緑*/
+	background-repeat: no-repeat;
+	background-position: 15px center;
+}
+
+#content {background-image: url(../img/bkcross.gif);}
+
+#content p {margin: 15px;}
+
+#content ul {
+	padding-left: 20px; margin-left:10px;
+	list-style-type: none;
+	font-size: 95%;
+	list-style-image:url("../img/bullet.gif");
+}
+
+#content a.lk {
+	padding-left:20px; margin-left:10px;
+	background:url("../gif/b4.gif") left no-repeat;
+}
+
+H1 {font-size:95%;}
+H2 {line-height: 200%;	font-size:110%;	color: black; background-color: #e0e0ff; margin:10px;}
+H3 {line-height: 200%;	font-size:110%;	color: navy;  background-color: #f5f5f5; margin:10px;}
+H4 {line-height: 200%;	font-size:100%;	color: #5e8eab; margin:10px;}
+H5 {line-height: 80%;	font-size: 80%;	color: navy; margin:10px;}
+
+#content a:link {color:navy;	font-style:normal;	text-decoration:none;}
+#content a:visited {color:gray;	font-style:normal;	text-decoration:none;}
+#content a:hover {color:blue;   font-style:normal;  text-decoration:underline;}
+#content a:active {color:green; font-style:normal;  text-decoration:underline;}
+
+footer {
+	clear: both; /*回り込みの解除*/
+	background-color: #CCC; /*灰色*/
+	color: #000; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+}
+
+
